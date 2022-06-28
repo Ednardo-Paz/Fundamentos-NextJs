@@ -18,6 +18,11 @@ export default function Inicio() {
         texto={'Navegação 02'}
         cor={'blue'}
       />
+      <Navegador
+        destino={'/estado'}
+        texto={'Componente com Estado'}
+        cor={'pink'}
+      />
     </div>
   );
 }
